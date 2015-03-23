@@ -146,10 +146,10 @@ class settings():
     self.music_interpolation        = int(__addon__.getSetting("musicvideo_interpolation") == "true")
     self.music_threshold            = float(__addon__.getSetting("musicvideo_threshold"))
     self.music_preset               = int(__addon__.getSetting("musicvideo_preset"))
-    self.music_scan_v               = float(__addon__.getSetting("music_scan_v"))
-    self.music_scan_h               = float(__addon__.getSetting("music_scan_h"))
-    self.music_scan_threshold       = int(float(__addon__.getSetting("music_scan_threshold")))
-    self.music_scan_range           = float(__addon__.getSetting("music_scan_range"))
+    self.music_scan_v               = float(__addon__.getSetting("musicvideo_scan_v"))
+    self.music_scan_h               = float(__addon__.getSetting("musicvideo_scan_h"))
+    self.music_scan_threshold       = int(float(__addon__.getSetting("musicvideo_scan_threshold")))
+    self.music_scan_range           = float(__addon__.getSetting("musicvideo_scan_range"))
 
   def resetBobDisable(self):
     # reset the bobdisable setting from settings
